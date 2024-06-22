@@ -129,7 +129,7 @@ if selected_features:
 
     st.write("\n")
     st.write("Github link for Dataset and Code")
-    st.write("https://github.com/")
+    st.write("https://github.com/viditjain17/Restaurant-Rating-Analysis")
     st.write("\n")
 st.write('Made with ❤️ by Vidit !')
 
