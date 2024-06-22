@@ -18,7 +18,7 @@ import streamlit.components.v1 as components
 st.set_page_config(layout='wide', initial_sidebar_state='collapsed')
 
 # Reading the file
-data_delhi = pd.read_csv("D:/CODING/Data Science/Restaurants/New_Delhi_data.csv", encoding='unicode_escape')
+data_delhi = pd.read_csv("New_Delhi_data.csv", encoding='unicode_escape')
 
 # Dropping the columns that don't help in analysis
 model_data = data_delhi.drop(['Restaurant ID', 'Restaurant Name', 'City', 'Address', 'Locality', 'Cuisines'], axis=1)
