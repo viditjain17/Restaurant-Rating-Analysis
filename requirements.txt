@@ -6,5 +6,4 @@ streamlit
 plotly
 scikit-learn
 imblearn
-codecs
 scipy
